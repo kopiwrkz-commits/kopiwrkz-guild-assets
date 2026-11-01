@@ -6,7 +6,7 @@ Assets for the KOPIWRKZ Guild Library portfolio at kopiwrkz.com/portfolio. The s
 
 | Folder | What it holds |
 | --- | --- |
-| `lib/` | `kwz-libs.js`, the bundled 3D libraries the page needs on top of three.js r160 |
+| `lib/` | `kwz-libs.js`: three.js r160 (bundled from its ES module build, no deprecated scripts) plus every add-on library the page uses |
 | `brand/` | KOPIWRKZ Guild logo: badge, mark and favicons (SVG + PNG) |
 | `img/` | Guild Master art and book covers |
 | `models/` | Compressed glTF props (meshopt + WebP textures) |
@@ -29,6 +29,6 @@ Code bundled in `lib/kwz-libs.js`:
 - [theatre-js/theatre](https://github.com/theatre-js/theatre) (@theatre/core): Apache-2.0
 - [mrdoob/three.js](https://github.com/mrdoob/three.js) addons (GLTFLoader, RGBELoader, Reflector, meshopt decoder): MIT
 
-Loaded separately: three.js r160 (MIT) from jsDelivr, [howler.js](https://github.com/goldfire/howler.js) (MIT) from cdnjs. Font: Cinzel (SIL Open Font License).
+Also bundled: three.js r160 core (MIT). Loaded separately: [howler.js](https://github.com/goldfire/howler.js) (MIT) from cdnjs. Font: Cinzel (SIL Open Font License).
 
 Third-party models, textures and sounds added to `models/`, `textures/` and `sfx/` are CC0 (Poly Haven, Quaternius, Kenney, Freesound CC0 filter); each folder's README lists the source of every file.
