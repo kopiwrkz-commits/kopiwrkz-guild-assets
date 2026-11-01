@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024"><defs><linearGradient id="kg-steel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A4256"/><stop offset=".5" stop-color="#151B2B"/><stop offset="1" stop-color="#2C3446"/></linearGradient>
+<linearGradient id="kg-chrome" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C8597"/><stop offset=".22" stop-color="#F7F9FC"/><stop offset=".5" stop-color="#C3CAD6"/><stop offset=".78" stop-color="#EEF1F6"/><stop offset="1" stop-color="#8A93A4"/></linearGradient>
+<linearGradient id="kg-chrome-d" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDFEFF"/><stop offset=".45" stop-color="#B9C1CE"/><stop offset=".7" stop-color="#E9EDF3"/><stop offset="1" stop-color="#7D8698"/></linearGradient>
+<linearGradient id="kg-goldbar" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE7A6"/><stop offset=".35" stop-color="#E7AE4C"/><stop offset=".7" stop-color="#B47A2A"/><stop offset="1" stop-color="#F3C870"/></linearGradient></defs><defs>
+<linearGradient id="kg-gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF1C4"/><stop offset=".38" stop-color="#E9B95E"/><stop offset=".7" stop-color="#A9742A"/><stop offset="1" stop-color="#F2CC7E"/></linearGradient>
+<linearGradient id="kg-gold-d" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6D48A"/><stop offset=".55" stop-color="#C08A36"/><stop offset="1" stop-color="#7A5220"/></linearGradient>
+<linearGradient id="kg-silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".35" stop-color="#D9DEE7"/><stop offset=".62" stop-color="#8E97A8"/><stop offset="1" stop-color="#E8EBF1"/></linearGradient>
+<linearGradient id="kg-silver-v" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FAFBFD"/><stop offset=".5" stop-color="#AEB6C4"/><stop offset="1" stop-color="#E4E8EE"/></linearGradient>
+<radialGradient id="kg-field" cx=".5" cy=".42" r=".62"><stop offset="0" stop-color="#132457"/><stop offset="1" stop-color="#060C24"/></radialGradient>
+<radialGradient id="kg-node" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".45" stop-color="#7FD8FF"/><stop offset="1" stop-color="#1E7FD6"/></radialGradient>
+<radialGradient id="kg-node-g" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#FFFBEA"/><stop offset=".5" stop-color="#F2C46B"/><stop offset="1" stop-color="#A56E22"/></radialGradient>
+<filter id="kg-nodeglow" x="-1" y="-1" width="3" height="3"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs><circle cx="512" cy="512" r="440" fill="url(#kg-field)"/>
+<circle cx="512" cy="512" r="490" fill="none" stroke="url(#kg-steel)" stroke-width="12"/>
+<circle cx="512" cy="512" r="468" fill="none" stroke="url(#kg-goldbar)" stroke-width="34"/>
+<circle cx="512" cy="512" r="468" fill="none" stroke="#FFF3CC" stroke-width="3" stroke-dasharray="3 41" opacity=".6"/>
+<circle cx="512" cy="512" r="449" fill="none" stroke="url(#kg-chrome)" stroke-width="7"/>
+<circle cx="512" cy="512" r="440" fill="none" stroke="#3FA9F5" stroke-width="3"/><g transform="translate(512,512) scale(1.12) translate(-534,-420)">
+<g fill="url(#kg-goldbar)" stroke="#6E4A16" stroke-width="3" stroke-linejoin="round">
+ <path d="M440 168 L428 92 L470 124 L512 60 L554 124 L596 92 L584 168 Z"/><rect x="436" y="168" width="152" height="22" rx="4"/></g>
+<circle cx="512" cy="96" r="9" fill="#7FD8FF"/>
+<path d="M296 262 L322 236 L428 236 L428 606 L402 632 L296 632 Z" fill="url(#kg-chrome)" stroke="#4A5262" stroke-width="3" stroke-linejoin="round"/>
+<path d="M316 270 L334 254 L410 254 L410 598 L392 614 L316 614 Z" fill="none" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="2"/>
+<path d="M428 246 L428 622" stroke="#3FA9F5" stroke-width="5" stroke-linecap="round"/>
+<path d="M428 432 L622 236 L744 236 L486 494 L428 494 Z" fill="url(#kg-goldbar)" stroke="#6E4A16" stroke-width="3" stroke-linejoin="round"/>
+<path d="M440 494 L486 494 L744 236" fill="none" stroke="#3FA9F5" stroke-width="5" stroke-linejoin="round"/>
+<path d="M470 470 L548 412 L770 632 L646 632 Z" fill="url(#kg-chrome-d)" stroke="#4A5262" stroke-width="3" stroke-linejoin="round"/>
+<path d="M556 432 L742 618" stroke="url(#kg-goldbar)" stroke-width="9" stroke-linecap="round"/>
+<path d="M440 440 L626 254 L712 254 L478 476 L440 476 Z" fill="#FFF4CF" opacity=".22"/>
+<path d="M496 470 L548 432 L728 614 L662 614 Z" fill="#FFFFFF" opacity=".25"/>
+<g fill="none" stroke="#3FA9F5" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M700 280 L738 280 L760 256 L796 256"/><path d="M640 340 L796 340"/><path d="M580 400 L716 400 L740 424 L796 424"/></g>
+<g filter="url(#kg-nodeglow)">
+ <circle cx="816" cy="256" r="20" fill="#0B1838" stroke="#7FD8FF" stroke-width="7"/><circle cx="816" cy="256" r="8" fill="url(#kg-node)"/>
+ <circle cx="816" cy="340" r="20" fill="#0B1838" stroke="#F2C46B" stroke-width="7"/><circle cx="816" cy="340" r="8" fill="url(#kg-node-g)"/>
+ <circle cx="816" cy="424" r="20" fill="#0B1838" stroke="#7FD8FF" stroke-width="7"/><circle cx="816" cy="424" r="8" fill="url(#kg-node)"/></g></g></svg>
