@@ -1,0 +1,1 @@
+# kopiwrkz-guild-assets
